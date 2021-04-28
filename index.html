@@ -1,1 +1,83 @@
+<!-- Alt + Z = wrap text toggle -->
 <!-- CTRL + / = add comments -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head: info about the website -->
+<head>
+   <!-- Indent elements if within elements -->
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- title: tab title -->
+   <title>HTML Reference</title>
+</head>
+
+<body>
+   <header id="header">
+      <!-- h: heading, 1 to 6 -->
+      <h1>Common HTML Elements</h1>
+      <!-- p: paragraph, general text -->
+      <p>Showcase of commonly used HTML elements</p>
+    </header>
+
+    <main>
+       <!-- section: adding structure and grouping related content -->
+       <!-- article: for content that makes sense by itself -->
+      <section>
+        <h2>Images</h2>
+        <!-- img: inline; src, alt (if img is broken) attribute -->
+        <img src="#" alt="Alternative text" />
+        <img src="#" alt="Alternative text" />
+        <img src="#" alt="Alternative text" />
+      </section>
+
+      <section>
+        <h2>Lists</h2>
+        <h3>Unordered Lists (Bullet Point Lists)</h3>
+        <!-- ul: unordered lists -->
+        <ul>
+           <!-- li: list items -->
+          <li>First Item</li>
+          <li>Second Item</li>
+          <li>Third Item</li>
+        </ul>
+
+        <h3>Ordered Lists (Numbered Lists)</h3>
+        <!-- ol: ordered lists -->
+        <ol>
+          <li>First Item</li>
+          <li>Second Item</li>
+          <li>Third Item</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Containers</h2>
+        <h3>Div Containers</h3>
+        <!-- div: is a block; grouping/dividing purely for styling, NOT page structure -->
+        <div>
+          <p>First Item in Group</p>
+          <p>Second Item in Group</p>
+        </div>
+        <h3>Span Containers</h3>
+        <div>
+           <!-- span: used inside block level element, similar to div -->
+          <p><span>First</span> Item in Group</p>
+          <p><span>Second</span> in Group</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <h2>Links</h2>
+      <!-- a: anchor link; href (to where the link is going) -->
+      <a href="./README.md">Linking to another file in folder</a>
+      <a href="#header">Linking to an ID</a>
+      <a href="https://www.google.com/">Linking to website</a>
+      <a href="https://www.google.com/" target="_blank">Link and Open new tab</a>
+    </footer>   
+
+</body>
+</html>
